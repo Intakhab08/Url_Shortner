@@ -275,7 +275,7 @@ server.port=8080
 # Database
 spring.datasource.url=jdbc:mysql://localhost:3306/url_shortener_db
 spring.datasource.username=root
-spring.datasource.password=rootroot
+spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
@@ -285,7 +285,7 @@ spring.redis.host=localhost
 spring.redis.port=6379
 
 # Cache
-cache.expiration.minutes=60
+cache.expiration.seconds=60
 ```
 
 ---
@@ -335,7 +335,7 @@ This project is open source and available under the MIT License.
 
 ## 👤 Author
 
-- **Developed by:** Intakhab Khan
+- **Developed by:** Md Intakhab
 - **Repository:** [GitHub](https://github.com/Intakhab08/Url_Shortner)
 
 ---
