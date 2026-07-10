@@ -2,19 +2,6 @@
 
 A robust and efficient URL shortening service built with Spring Boot, MySQL, and Redis. This application converts long URLs into short, shareable links and provides fast redirection with caching.
 
----
-
-## 📋 Table of Contents
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Architecture](#architecture)
-- [Setup & Installation](#setup--installation)
-- [API Documentation](#api-documentation)
-- [How It Works](#how-it-works)
-- [Database Schema](#database-schema)
-
----
 
 ## ✨ Features
 
@@ -114,7 +101,7 @@ git clone https://github.com/Intakhab08/Url_Shortner.git
 cd Url_Shortner
 ```
 
-### Step 2: Create MySQL Database
+### Step 2: Create MySQL Database in Mac using Terminal
 ```bash
 mysql -u root -p
 CREATE DATABASE url_shortener_db;
